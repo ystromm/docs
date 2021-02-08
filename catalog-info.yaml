@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "docs"
+  description: "docs"
+  annotations:
+    github.com/project-slug: ystromm/docs
+    backstage.io/techdocs-ref: url:https://github.com/ystromm/docs
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "Martin"
